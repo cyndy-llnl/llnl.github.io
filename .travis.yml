@@ -1,14 +1,18 @@
-language: python
+jobs:
+  include:
+    - language: python
+      sudo: false
+      python:
+        - '3.6'
+        - '3.7'
+        - '3.8'
+      install:
+        - pip install flake8 black
+      script:
+        - make test
 
-sudo: false
-
-python:
-  - '3.6'
-  - '3.7'
-  - '3.8'
-
-install:
-  - pip install flake8 black
-
-script:
-  - make test
+    - language: ruby
+      rvm:
+        - 2.3
+      script:
+        - bundle exec jekyll build
