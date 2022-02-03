@@ -1,0 +1,56 @@
+---
+
+# This data file is for projects that aren't open source, but that we want to showcase
+# For WCI Codes, this information comes primarily from:
+# <https://wci.llnl.gov/simulation/computer-codes> and other linked pages
+
+ALE3D:
+  description: "ALE3D is a 2D and 3D, arbitrary Lagrangian-Eulerian, massively-parallel, finite-element code that treats fluid and elastic-plastic response of materials on an unstructured grid of 3D hexagonal elements or 2D quadrilaterals. The major components of the code are explicit and implicit continuum-mechanics, thermal diffusion, and chemistry. An incompressible flow model also exists along with a 3D Magneto Hydro Dynamic (MHD) capability."
+  url: https://wci.llnl.gov/simulation/computer-codes/ale3d
+  contact: ale3d-help@llnl.gov
+
+ARDRA:
+  description: ARDRA is a 1D, 2D, and 3D deterministic (SN) neutron and gamma transport code. ARDRA demonstrated scalability on LLNL's IBM BG/Q system Sequoia using 1,572,864 MPI tasks with over 37.5 trillion unknowns, while achieving over 71% parallel efficiency.
+
+AMTRAN:
+  description: AMTRAN (Adaptive Mesh TRANsport is a 1D, 2D and 3D deterministic (SN) neutron and gamma transport code that uses spatial and angular adaptive refinement. It is able to run efficiently on a wide range of platforms, from serial to massively parallel architectures.
+
+BLAST:
+  description: BLAST is an object-oriented high-order finite element ALE hydrodynamics research code that supports 2Dxy/2Drz/3D unstructured curvilinear meshes. BLAST is capable of modeling complex multi-material shock hydrodynamics on massively parallel computers using advanced high-order curvilinear finite element methods. The BLAST algorithm has high arithmetic intensity and is well suited for advanced heterogeneous computing architectures.
+  url: https://computing.llnl.gov/projects/blast
+
+Cheetah:
+  description: Cheetah, an LLNL thermochemical computer code, is a convenient and accurate physics- and chemistry-based computational tool for predicting the detonation velocities and energy release properties of energetic materials such as explosives, propellants, and pyrotechnics. Cheetah employs advanced concepts and theories of fluids and solids at high pressures and temperatures to model the thermodynamics of explosion products that result from the detonation of modern condensed, energy-dense explosives. The results can be used for materials design, performance predictions and formulation optimization, as well as safety analyses, accident forensics, and even to study homemade and terrorist devices. WCI makes particular use of the Cheetah database, which currently includes a wide range of approximately 1,000 chemical ingredients and products. [More information about Cheetah]
+  url: https://pls.llnl.gov/people/divisions/materials-science-division/cheetah
+
+CRETIN:
+  description: CRETIN is a 1D, 2D, and 3D non-local thermodynamic equilibrium (NLTE) atomic kinetics/radiation transport code which follows the time evolution of atomic populations and photon distributions as radiation interacts with a plasma. It can provide detailed spectra for comparing with experimental diagnostics.
+
+KIM3D:
+  description: KIM3D is a parallel hybrid plasma simulation code that treats ions as kinetic particles and uses the Darwin limit of Maxwell's equations. It is used primarily for modeling the physics of magnetized collisionless shocks and high altitude weapons effects.
+
+KULL:
+  description: Kull is a massively parallel simulation code developed to model high energy density physics applications. Kull can be steered using the Python programming language but its computational kernels are written predominantly in C++.
+
+MERCURY:
+  description: Mercury is a 1D, 2D and 3D massively parallel Monte Carlo neutron, gamma and charged particle transport code. It is capable of tracking particles on both user defined meshes as well as user defined geometric shapes, or a combination of the two.
+  url: https://wci.llnl.gov/simulation/computer-codes/mercury
+
+Miranda:
+  description: Miranda is a radiation hydrodynamics code designed for large-eddy simulation of multicomponent flows with turbulent mixing. Additional physics packages include magneto-hydrodynamics, self-gravity, and thermonuclear fusion. The hydro package is based on tenth-order compact (Pade) schemes for spatial differencing, combined with fourth-order Runge-Kutta timestepping. Applications to date include interfacial instabilities (RT, RM, and KH), ICF implosions, ablation physics, supernovae, the LIFE chamber, and classical fluids experiments (e.g., drop tanks, shock tubes, etc.).
+  url: https://wci.llnl.gov/simulation/computer-codes/miranda
+
+PMesh:
+  description: PMesh is a suite of mesh generation tools developed to set up problems for massively parallel Advanced Simulation and Computing (ASC) simulations. DRACO is an interactive code used for geometry creation, decomposition, mesh generation, and visualization. XENA is a stand-alone, massively parallel mesh generator that uses DRACO geometry as input.
+
+SPHERAL:
+  description: Spheral is a modeling tool aimed at the development of novel meshless numerical modeling techniques, particularly focused on hydrodynamics, strength, and damage modeling. Spheral currently incorporates fluid and solid modeling via SPH (Smoothed Particle Hydrodynamics) and ASPH (Adaptive Smoothed Particle Hydrodynamics).
+  url: https://wci.llnl.gov/simulation/computer-codes/spheral
+
+UQ Pipeline:
+  description: Uncertainty quantification, or "UQ," is the quantitative characterization and reduction of uncertainty in computer applications through running very large suites of calculations to characterize the effects of minor differences in the systems. Sources of uncertainty are rife in the natural sciences and engineering fields. UQ uses statistical methods to determine likely outcomes. Sequoia was the first system to allow for the routine use of two-dimensional UQ studies at high resolution; it will also be capable of entry-level three-dimensional UQ studies.
+  url: https://wci.llnl.gov/simulation/computer-codes/uncertainty-quantification
+
+VisIt:
+  description: VisIt is an interactive, parallel visualization and graphical analysis tool for viewing scientific data on Unix and PC platforms. VisIt can process data for many of the simulation codes developed by Advanced Simulation and Computing (ASC). For more information, stop by the VisIt Web page.
+  url: https://wci.llnl.gov/simulation/computer-codes/visit
