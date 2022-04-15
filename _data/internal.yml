@@ -66,7 +66,7 @@ ChiMES Calculator:
   description: The ChiMES calculator comprises a flexibile tool set for evaluating ChiMES interactions. Users have the option of directly embedding the ChiMES calculator within their codes or...
   url: BitBucket (lock icon)
   contact: email address
-  logo: chimes.png
+  logo: chimes.png (or default to PLS logo)
   topics: materials-discovery, materials-modeling, application, simulation
 
 MI-ChemVis:
