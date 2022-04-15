@@ -22,6 +22,9 @@ BLAST:
 Cheetah:
   description: Cheetah, an LLNL thermochemical computer code, is a convenient and accurate physics- and chemistry-based computational tool for predicting the detonation velocities and energy release properties of energetic materials such as explosives, propellants, and pyrotechnics. Cheetah employs advanced concepts and theories of fluids and solids at high pressures and temperatures to model the thermodynamics of explosion products that result from the detonation of modern condensed, energy-dense explosives. The results can be used for materials design, performance predictions and formulation optimization, as well as safety analyses, accident forensics, and even to study homemade and terrorist devices. WCI makes particular use of the Cheetah database, which currently includes a wide range of approximately 1,000 chemical ingredients and products. [More information about Cheetah]
   url: https://pls.llnl.gov/people/divisions/materials-science-division/cheetah
+  contact: email address
+  logo: cheetah.png
+  topics: materials-prediction, math-physics
 
 CRETIN:
   description: CRETIN is a 1D, 2D, and 3D non-local thermodynamic equilibrium (NLTE) atomic kinetics/radiation transport code which follows the time evolution of atomic populations and photon distributions as radiation interacts with a plasma. It can provide detailed spectra for comparing with experimental diagnostics.
@@ -54,3 +57,22 @@ UQ Pipeline:
 VisIt:
   description: VisIt is an interactive, parallel visualization and graphical analysis tool for viewing scientific data on Unix and PC platforms. VisIt can process data for many of the simulation codes developed by Advanced Simulation and Computing (ASC). For more information, stop by the VisIt Web page.
   url: https://wci.llnl.gov/simulation/computer-codes/visit
+  
+# Examples of PLS materials science repo info to accommodate the proposed design, April 2022
+# Topics = (1) materials topics TBD, (2) our "explore" categories, (3) our standardized "other" categories (https://github.com/LLNL/llnl.github.io/tree/main/pages/explore)
+# See also Cheetah above
+
+ChiMES Calculator:
+  description: The ChiMES calculator comprises a flexibile tool set for evaluating ChiMES interactions. Users have the option of directly embedding the ChiMES calculator within their codes or...
+  url: BitBucket (lock icon)
+  contact: email address
+  logo: chimes.png
+  topics: materials-discovery, materials-modeling, application, simulation
+
+MI-ChemVis:
+  description: A browser-based visualization of chemistry papers, specifically morphology, material, and chemical data extracted from them. The UI was made with nanomaterial synthesis papers in mind.
+  url: https://github.com/LLNL/MI-ChemVis
+  contact: email address
+  logo: (none, default to LLNL org)
+  topics: materials-discovery, data-viz, data-analysis
+  # But would we really need to duplicate this info for a repo that's on GH? If a repo were on internal BB, then later moves to GH, it would have to be removed from here.
